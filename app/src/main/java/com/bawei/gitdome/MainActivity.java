@@ -3,6 +3,7 @@ package com.bawei.gitdome;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -15,5 +16,7 @@ public class MainActivity extends AppCompatActivity {
         TextView tv = new TextView(MainActivity.this, null);
         //创建一个按钮
         Button button = new Button(MainActivity.this, null);
+        //创建一个图片
+        ImageView img = new ImageView(MainActivity.this,null);
     }
 }
